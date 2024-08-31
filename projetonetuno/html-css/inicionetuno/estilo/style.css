@@ -9,7 +9,7 @@
 
 
 
-   /* background-color: #1A7FBD ; */
+   
 body {
     background-color: white;
     overflow-x: hidden;
@@ -59,7 +59,6 @@ header .pro-seletivo button{
 
 
 
-/* Estilos para telas maiores (desktop) */
 @media (min-width: 1024px) {
     header {
         padding: 40px 10%;
@@ -70,7 +69,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
+
 @media (min-width: 768px) and (max-width: 1023px) {
     header {
         padding: 30px 5%;
@@ -86,7 +85,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     header {
         padding: 20px 5%;
@@ -111,43 +110,6 @@ header .pro-seletivo button{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #botao1 {
     color: white;
     border: 0;
@@ -159,7 +121,7 @@ header .pro-seletivo button{
 #linha1{
     margin-left: 150px;
     margin-top: -100px ;       
-    /* margin top mover para cima */
+    
 }
 
 .imagem-esquerda {
@@ -167,7 +129,7 @@ header .pro-seletivo button{
     
     height: auto;
     display: block;
-    margin-bottom: 0; /* Adiciona espaço entre as imagens */
+    margin-bottom: 0; 
 }
 
 .container {
@@ -183,7 +145,7 @@ header .pro-seletivo button{
 
 }
 
-/* Imagem do icone em baixo do casal */
+
 .imagem-direita {
     position: absolute;
     top: 564px;
@@ -203,7 +165,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
+
 @media (min-width: 768px) and (max-width: 1023px) {
     header {
         padding: 30px 5%;
@@ -223,7 +185,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     header {
         padding: 20px 5%;
@@ -259,25 +221,6 @@ header .pro-seletivo button{
         left: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -439,7 +382,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .Cadastro {
         width: 100%;
@@ -453,7 +396,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     .Cadastro {
         width: 100%;
@@ -470,27 +413,6 @@ header .pro-seletivo button{
         left: 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -554,9 +476,9 @@ header .pro-seletivo button{
 
 
 .Cadastro input {
-    width: 100%; /* Ajusta a largura dos campos de entrada */
-    padding: 10px; /* Adiciona preenchimento interno aos campos de entrada */
-    box-sizing: border-box; /* Inclui o preenchimento e a borda na largura total */
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
     margin-bottom: 10px;
 }
 
@@ -610,7 +532,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .Cadastro {
         width: 100%;
@@ -625,7 +547,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     .Cadastro {
         width: 100%;
@@ -652,14 +574,6 @@ header .pro-seletivo button{
 
 
 
-
-
-
-
-
-
-
-
 #texto1 {
     color: #ffffff7d;
     font-size: 16px;
@@ -670,8 +584,8 @@ header .pro-seletivo button{
 }
 
 #texto2 {
-    color: #FFFFFF; /* Altere para a cor desejada */
-    margin-top: 25px; /* Ajusta a posição do texto */
+    color: #FFFFFF; 
+    margin-top: 25px; 
     font-size: 16px;
 
     margin-left: 70px;
@@ -744,7 +658,6 @@ header .pro-seletivo button{
     margin: auto;
     position: absolute;
     top: 2200px;
-    /* border: 1px solid black; */
     justify-content: space-between;
     left: 250px;
     
@@ -754,9 +667,6 @@ header .pro-seletivo button{
     color: black;
     background-color: #fff;
     border: 1px;
-    /* border: 1px solid black; */
-    
-    
     width: 327px;
     height: 228px;
     z-index: 1;
@@ -879,14 +789,14 @@ header .pro-seletivo button{
 
 #botaoblack {
     position: absolute;
-    background-color: black; /* Cor de fundo */
-    color:  white; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
+    background-color: black; 
+    color:  white; 
+    padding: 10px 20px; 
     width: 459px;
     height: 70px;
-    border: none; /* Remove a borda padrão */
-    border-radius: 12px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
+    border: none; 
+    border-radius: 12px; 
+    font-size: 16px; 
     top: 2900px;
     left: 510px;
 }
@@ -945,7 +855,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .caixa-branca-container {
         left: 20px;
@@ -960,7 +870,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     .caixa-branca-container {
         width: 100%;
@@ -1007,24 +917,6 @@ header .pro-seletivo button{
         transform: translateX(-50%);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1200,7 +1092,6 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     .caixas-brancas-container {
         left: 20px;
@@ -1215,7 +1106,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     .caixas-brancas-container {
         width: 100%;
@@ -1273,24 +1164,6 @@ header .pro-seletivo button{
         transform: translateX(-50%);
     }
 }
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1417,7 +1290,6 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     #button-inferior {
         width: 140px;
@@ -1429,7 +1301,7 @@ header .pro-seletivo button{
     }
 }
 
-/* Estilos para dispositivos móveis */
+
 @media (max-width: 767px) {
     #button-inferior {
         width: 90%;
